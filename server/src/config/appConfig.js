@@ -1,9 +1,5 @@
 
-import dotenv from "dotenv";
-
-dotenv.config();
-
-const port = process.env.PORT;
+const port = 4000;
 
 export const appConnection = (app)=>{
     
