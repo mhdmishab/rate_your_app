@@ -56,7 +56,7 @@ Run the following command to start the Node.js server. Nodemon will automaticall
   npm start
  
 ```
-#### Step 6: Navigate to Frontend Directory
+#### Step 6: Navigate to Frontend Directory In Another Terminal
 
 Navigate back to the `root` directory of the cloned project using the command:
 
