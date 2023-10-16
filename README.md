@@ -10,7 +10,7 @@ This repository highlights a sophisticated app rating feature, enabling users to
 - Database: MongoDB, Mongoose
 - Backend architecture: MVC with repository pattern
 - CSS framework: Tailwind CSS
-- libraries:  node-scheduler, morgan, yup, axios, antd, material-ui, dotenv.
+- libraries:  morgan, yup, axios, antd, material-ui, dotenv.
 
 
 ## Deployment Instructions:
