@@ -18,7 +18,6 @@ function PageData() {
   }
  
   const handlePagination = (newPage, pageSize) => {
-    console.log(page, pageSize);
     setPage(newPage);
   }
 
@@ -41,7 +40,7 @@ function PageData() {
       width: '100%',
       height: reviews?.length > 3 ? '100%' : '100vh',
     }}>
-      {reviews ? (
+      {reviews?.length>0 ? (
         <div className='flex-col justify-center items-center'>
           <div className="p-5 flex justify-center flex-wrap">
             {reviews?.map((review) => (

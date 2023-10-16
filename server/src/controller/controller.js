@@ -28,10 +28,7 @@ export const addFormData = async (req, res) => {
 export const getData = async (req, res) => {
     try {
         const page = req.params.page;
-        console.log(page, "page")
-
         const reviews = await getMongooseData(page);
-        console.log(reviews, "herrer");
         const totalReviews = await reviewMongooseCount();
         console.log(totalReviews);
 
