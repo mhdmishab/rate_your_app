@@ -46,11 +46,11 @@ Run the following command to install the required packages locally for the proje
 #### Step 4: Rename and Configure .env File
 
 - Rename the `sample.env` file to `.env`
-- Open the `.env` file and fill in your configuration details, such as the database URL, port.
+- Open the `.env` file and fill in your configuration details, such as the database URL.
 
 #### Step 5: Start the Server
 
-Run the following command to start the Node.js server. Nodemon will automatically restart the server on code changes.
+Run the following command to start the Node.js server.
 
 ```bash
   npm start
@@ -71,7 +71,7 @@ Navigate to the `frontend` directory within the cloned project using the command
 ```
 #### Step 7: Install Local Dependencies (Frontend)
 
-Navigate back to the root directory of the cloned project using the command:
+Run the following command to install the required packages locally for the project:
 
 ```bash
   npm install
