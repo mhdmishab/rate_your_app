@@ -1,4 +1,4 @@
-# **Backend Coding Assignment Submission**
+# **Coding Assignment Submission**
 
 This repository highlights a sophisticated app rating feature, enabling users to provide their feedback via a well-crafted form and subsequently browse app reviews on a separate, dedicated page.
 
@@ -24,7 +24,7 @@ This repository highlights a sophisticated app rating feature, enabling users to
 
 Open a terminal and run the following command to clone this project:
 ```bash
-git clone https://github.com/abdul-vajid/Common-Image-Store.git
+git clone https://github.com/mhdmishab/rate_your_app.git
  
 ```
 #### Step 2: Navigate to the Project Directory
