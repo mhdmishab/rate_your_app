@@ -1,4 +1,4 @@
-# **Backend Coding Assignment Submission**
+# **Coding Assignment Submission**
 
 This repository highlights a sophisticated app rating feature, enabling users to provide their feedback via a well-crafted form and subsequently browse app reviews on a separate, dedicated page.
 
@@ -24,7 +24,7 @@ This repository highlights a sophisticated app rating feature, enabling users to
 
 Open a terminal and run the following command to clone this project:
 ```bash
-git clone https://github.com/abdul-vajid/Common-Image-Store.git
+git clone https://github.com/mhdmishab/rate_your_app.git
  
 ```
 #### Step 2: Navigate to the Project Directory
@@ -35,14 +35,7 @@ cd rate_your_app/server
  
 ```
 
-#### Step 3: Install Global Dependencies
-
-Run the following command to install nodemon globally. This will help with server restarts during development.
-```bash
-  npm global add nodemon
- 
-```
-#### Step 4: Install Local Dependencies (Backend)
+#### Step 3: Install Local Dependencies (Backend)
 
 Run the following command to install the required packages locally for the project.
 
@@ -50,12 +43,12 @@ Run the following command to install the required packages locally for the proje
   npm install
  
 ```
-#### Step 5: Rename and Configure .env File
+#### Step 4: Rename and Configure .env File
 
 - Rename the `sample.env` file to `.env`
 - Open the `.env` file and fill in your configuration details, such as the database URL, port.
 
-#### Step 6: Start the Server
+#### Step 5: Start the Server
 
 Run the following command to start the Node.js server. Nodemon will automatically restart the server on code changes.
 
@@ -63,7 +56,7 @@ Run the following command to start the Node.js server. Nodemon will automaticall
   npm start
  
 ```
-#### Step 7: Navigate to Frontend Directory
+#### Step 6: Navigate to Frontend Directory In Another Terminal
 
 Navigate back to the `root` directory of the cloned project using the command:
 
@@ -76,7 +69,7 @@ Navigate to the `frontend` directory within the cloned project using the command
   cd client
  
 ```
-#### Step 8: Install Local Dependencies (Frontend)
+#### Step 7: Install Local Dependencies (Frontend)
 
 Navigate back to the root directory of the cloned project using the command:
 
@@ -85,7 +78,7 @@ Navigate back to the root directory of the cloned project using the command:
  
 ```
 
-#### Step 9: Start the Frontend Server
+#### Step 8: Start the Frontend Server
 
 Run the following command to start the React frontend server.
 
